@@ -4,6 +4,9 @@ import CardList from "./js/CardList";
 import Popup from "./js/popup";
 import UserInfo from "./js/UserInfo";
 import FormValidator from "./js/FormValidate";
+import './style.css';
+
+
 
 
 const popupEditProfileBtnSave = document.querySelector('.popupEditProfile__button');
