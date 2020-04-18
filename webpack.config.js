@@ -3,9 +3,19 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 const isDev = process.env.NODE_ENV === 'development';
 
+=======
+const isDev = process.env.NODE_ENV === 'development';
+>>>>>>> 35f9f9f7377b856d841dcd16244d6a7f7dc9aaa6
+
+const isDev = process.env.NODE_ENV === 'development';
+
+>>>>>>> 16f125cf02573c70edd07c550058053e8a2e2780
 module.exports = {
     entry: { main: './src/index.js' },
     output: {
