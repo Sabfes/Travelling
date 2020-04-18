@@ -2,15 +2,7 @@
   "name": "travelling",
   "version": "1.0.0",
   "description": "Js-Project",
-<<<<<<< HEAD
   "main": "src/index.js",
-=======
-<<<<<<< HEAD
-  "main": "src/index.js",
-=======
-  "main": "index.js",
->>>>>>> 16f125cf02573c70edd07c550058053e8a2e2780
->>>>>>> 35f9f9f7377b856d841dcd16244d6a7f7dc9aaa6
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
