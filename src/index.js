@@ -6,9 +6,6 @@ import UserInfo from "./js/UserInfo";
 import FormValidator from "./js/FormValidate";
 import './style.css';
 
-
-
-
 const popupEditProfileBtnSave = document.querySelector('.popupEditProfile__button');
 const popupForm = document.querySelector('.popup__form');
 const popupEditProfile = document.querySelector('.popupEditProfile')
@@ -68,7 +65,6 @@ cardList.loadCards();
 const validateStart = new FormValidator(popupEditProfileBtnSave);
 validateStart.setEventListeners(document.querySelector('.popupEditProfile__form'));
 popupEditProfileForm.addEventListener('submit', userInf.updateUserInfo.bind(userInf));
-console.log('asdassdasd')
 
 
 document.querySelector('.popupImg__close').addEventListener('click', popupStart.closeImg.bind(popupStart));
