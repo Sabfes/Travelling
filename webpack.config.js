@@ -3,9 +3,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+<<<<<<< HEAD
 
 const isDev = process.env.NODE_ENV === 'development';
 
+=======
+const isDev = process.env.NODE_ENV === 'development';
+
+
+>>>>>>> 16f125cf02573c70edd07c550058053e8a2e2780
 module.exports = {
     entry: { main: './src/index.js' },
     output: {
